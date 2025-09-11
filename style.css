@@ -182,3 +182,70 @@ header {
   font-weight: 600;
   line-height: 35px;
 }
+
+/*Hot deal section*/
+
+.hot-deal-container {
+  max-width: 1920px;
+  height: 620px;
+  margin: 128px auto 0 auto;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 100px;
+}
+
+.hot-deal-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hot-deal-content h2 {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.hot-deal-off {
+  color: #e55473;
+}
+
+.hot-deal-content p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 32px;
+  max-width: 500px;
+}
+
+.hot-deal-btn {
+  display: inline-block;
+  background: #e55473;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 8px;
+  padding: 20px 43px;
+  text-decoration: none;
+}
+
+.hot-deal-image-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hot-deal-image {
+  max-width: 320px;
+  height: auto;
+  display: block;
+}
