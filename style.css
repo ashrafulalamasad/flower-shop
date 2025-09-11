@@ -64,3 +64,85 @@ header {
   height: 800px;
   margin-right: 40px;
 }
+
+.banner-image-wrapper {
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+}
+
+/*Featured Flowers Section */
+
+.featured-flowers-text > h3 {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 178px;
+}
+
+.featured-flowers-text > p {
+  color: rgba(39, 39, 39, 0.6);
+  width: 594px;
+  text-align: center;
+  margin: auto;
+  margin-top: 24px;
+  margin-bottom: 48px;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.featured-flowers-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-left: 240px;
+  margin-right: 240px;
+}
+
+.featured-flowers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+.flower-bg {
+  width: 420px;
+  height: 487px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  border-radius: 300px 300px 0 0;
+  margin-bottom: 24px;
+}
+
+.pink-bg {
+  background: rgba(167, 33, 98, 0.15);
+}
+
+.blue-bg {
+  background: rgba(5, 151, 160, 0.15);
+}
+
+.yellow-bg {
+  background: rgba(71, 125, 17, 0.15);
+}
+
+.featured-flowers a {
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
