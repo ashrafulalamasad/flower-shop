@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #ffffff;
+  color: #272727;
+}
+
+header {
+  background-color: rgba(229, 84, 115, 0.1);
+}
+
+.banner {
+  max-width: 1920px;
+  height: 850px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+.banner h1 {
+  color: #272727;
+  font-family: Lato;
+  font-size: 80px;
+  font-weight: 800;
+  padding: 0 40px;
+}
+
+.banner p {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 32px 0;
+  padding: 0 40px;
+}
+
+/* Shop Now button */
+.banner a {
+  display: inline-flex;
+  padding: 20px 43px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  background: #e55473;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+/* Banner image */
+.banner-image {
+  max-width: 635px;
+  height: 800px;
+  margin-right: 40px;
+}
