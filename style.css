@@ -146,3 +146,39 @@ header {
   text-underline-offset: auto;
   text-underline-position: from-font;
 }
+
+/* Customer Support Section */
+
+.customer-support-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 128px auto 0 auto;
+  max-width: 1320px;
+  height: 320px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  box-sizing: border-box;
+}
+
+.customer-support-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.customer-support-item img {
+  width: 56px;
+  height: 56px;
+  margin-bottom: 18px;
+}
+
+.customer-support-item p {
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
+}
