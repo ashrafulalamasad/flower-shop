@@ -408,3 +408,183 @@ footer > p {
   font-size: 16px;
   font-weight: 400;
 }
+
+/* @media(max-width: 1440px){
+  .banner{
+    flex-direction: column;
+    height: auto;
+    width: 100vw;
+    max-width: 100vw;
+    padding: 20px 10px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+  }
+  .banner h1{
+    padding: 0;
+    font-size: 3em;
+  }
+
+  .banner p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .banner-image-wrapper {
+    justify-content: center;
+    margin: 0;
+  }
+  .banner-image {
+    max-width: 90vw;
+    height: auto;
+    margin: 0 auto;
+  }
+} */
+
+/* =====================
+     Responsive CSS (max-width: 1440px)
+     ===================== */
+@media (max-width: 1440px) {
+  /* ===== Banner ===== */
+  .banner {
+    flex-direction: column;
+    height: auto;
+    width: 100vw;
+    max-width: 100vw;
+    padding: 20px 10px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+  }
+  .banner h1,
+  .banner p {
+    padding: 0;
+    font-size: 2rem;
+  }
+  .banner-image-wrapper {
+    justify-content: center;
+    margin: 0;
+  }
+  .banner-image {
+    max-width: 90vw;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  /* ===== Featured Flowers ===== */
+  .featured-flowers-container {
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 24px;
+    max-width: 100vw;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  .featured-flowers {
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .flower-bg {
+    width: 90vw;
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  /* ===== Customer Support ===== */
+  .customer-support-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  .customer-support-item {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  /* ===== Hot Deal Section ===== */
+  .hot-deal-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  .hot-deal-content {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .hot-deal-image-wrapper {
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .hot-deal-image {
+    max-width: 90vw;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  /* ===== Instagram Section ===== */
+  .instagram-gallery {
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  .instagram-item {
+    margin: 0 auto 10px auto;
+    max-width: 90vw;
+  }
+
+  /* ===== Subscribe Section ===== */
+  .subscribe-section {
+    width: 100vw;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .subscribe-content {
+    width: 100%;
+    max-width: 400px;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .subscribe-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: stretch;
+    margin: 0 auto;
+  }
+  .subscribe-form input[type="email"],
+  .subscribe-form button {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+
+  /* ===== Footer ===== */
+  footer {
+    width: 100vw;
+    max-width: 500px;
+    margin: 20px auto 0 auto;
+    padding: 20px 10px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 12px;
+    background: #222;
+    color: #fff;
+    overflow-wrap: break-word;
+  }
+}
