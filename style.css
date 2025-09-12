@@ -296,6 +296,71 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 2px 8px rgba(39,39,39,0.08);
+  box-shadow: 0 2px 8px rgba(39, 39, 39, 0.08);
   overflow: hidden;
+}
+
+/* Subscribe Section */
+
+.subscribe-section {
+  width: 1440px;
+  height: 450px;
+  margin: 128px auto 0 auto;
+  background: url("./Asset/Rectangle 9.png") center/cover no-repeat;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subscribe-content {
+  width: 100%;
+  max-width: 900px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.subscribe-content h2 {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.subscribe-content p {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 48px;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.subscribe-form input[type="email"] {
+  flex: 1;
+  padding: 18px 24px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  background: #fff;
+  color: rgba(39, 39, 39, 0.60);
+}
+
+.subscribe-form button {
+  padding: 18px 36px;
+  border-radius: 8px;
+  border: none;
+  background: #e55473;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
 }
