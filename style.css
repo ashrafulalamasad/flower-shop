@@ -351,7 +351,7 @@ header {
   font-size: 16px;
   font-weight: 400;
   background: #fff;
-  color: rgba(39, 39, 39, 0.60);
+  color: rgba(39, 39, 39, 0.6);
 }
 
 .subscribe-form button {
@@ -363,4 +363,48 @@ header {
   font-size: 18px;
   font-weight: 700;
   cursor: pointer;
+}
+
+/* Footer Section */
+
+footer {
+  max-width: 1920px;
+  height: 449px;
+  flex-shrink: 0;
+  background-color: #111010;
+  margin: 128px auto 0 auto;
+  text-align: center;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+footer > h1 {
+  color: #e55473;
+  font-size: 48px;
+  font-weight: 800;
+  padding-top: 128px;
+  padding-bottom: 24px;
+}
+
+#shop {
+  color: #fff;
+}
+
+footer > p {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  padding-bottom: 32px;
+  width: 625px;
+  margin: auto;
+}
+
+#copyright {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
 }
